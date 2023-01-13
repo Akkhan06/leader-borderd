@@ -1,0 +1,30 @@
+@media screen and (max-width: 576px){
+    body{
+        width: 100%;
+        
+    }
+
+    .playerSection{
+     width: 90%;
+
+    }
+    .playerMain{
+        grid-template-columns: 1fr;
+    }
+
+    .blog{
+        grid-template-columns: 1fr;
+    }
+
+    hr{
+        width: 90%;
+    }
+
+    .bloges img{
+    width: 100px;
+}
+
+.playerSectionMain{
+    flex-direction: column-reverse;
+}
+}
